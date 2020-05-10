@@ -4,10 +4,10 @@ namespace CSharpMedium.Entities
     {
         public string Name { get; set; }
 
-        /*public Department(string name)
+        public Department(string name)
         {
             Name = name;
-        }*/
+        }
         
     }
 }
