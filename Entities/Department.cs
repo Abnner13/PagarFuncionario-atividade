@@ -2,6 +2,12 @@ namespace CSharpMedium.Entities
 {
     public class Department
     {
-        public string name { get; set; }
+        public string Name { get; set; }
+
+        /*public Department(string name)
+        {
+            Name = name;
+        }*/
+        
     }
 }

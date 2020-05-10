@@ -4,17 +4,17 @@ namespace CSharpMedium.Entities
 {
     public class HourContract
     {
-        public DateTime date { get; set; }
+        public DateTime Date { get; set; }
         public double valuePerHour { get; set; }
         public int hours { get; set; }
 
         public HourContract(DateTime data, double valuePorhora, int hora)
         {
-            date = data;
+            Date = data;
             valuePerHour = valuePorhora;
             hours = hora;
         }
-        public double totalValue(DateTime data){
+        public double totalValue(){
             return valuePerHour * hours;
         }
     }

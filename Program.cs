@@ -10,7 +10,7 @@ namespace CSharpMedium
         {
             Console.Write("Ponha o nome do departamento");
             Department departamento = new Department();
-            departamento.name = Console.ReadLine();
+            departamento.Name = Console.ReadLine();
 
             Console.WriteLine("Dados do Trabalhador:");
 
@@ -22,7 +22,7 @@ namespace CSharpMedium
             Console.Write("Qual a base do Salário?");
             double salary = double.Parse(Console.ReadLine());
 
-            Worker func = new Worker(name, os, salary);
+           // Worker func = new Worker(name, os, salary departamento.Name);
 
             Console.Write("Quantos contrato(s) para esse funcionário ?");
             int contracts = int.Parse(Console.ReadLine());
@@ -49,10 +49,10 @@ namespace CSharpMedium
 
             
             Console.Write("Name :");
-            Console.WriteLine(func.Name);
+            //Console.WriteLine(func.Name);
 
             Console.Write("Departamento :");
-            Console.WriteLine(departamento.name);
+            Console.WriteLine(departamento.Name);
             Console.Write("s :");
         }
     }
