@@ -11,8 +11,7 @@ namespace CSharpMedium
         {
             Console.Write("Ponha o nome do departamento  : ");
             string depName = Console.ReadLine();
-            //Department departamento = new Department();
-            //departamento.Name = Console.ReadLine();
+            
 
             Console.WriteLine("Dados do Trabalhador:");
 

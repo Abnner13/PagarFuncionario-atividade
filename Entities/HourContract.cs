@@ -8,11 +8,7 @@ namespace CSharpMedium.Entities
         public double valuePerHour { get; set; }
         public int hours { get; set; }
 
-        public HourContract( DateTime date)
-        {
-            Date = date; 
-        }
-
+       
         public HourContract(DateTime data, double valuePorhora, int hora)
         {
             Date = data;
